@@ -1,0 +1,92 @@
+=== ÁRBOL ORGANIZACIONAL ===
+- Rectoría
+  - Facultad de Ingeniería
+    - Programa de Software
+      - Coordinación Académica
+        - Docente
+        - Monitor
+      - Laboratorios
+    - Programa de Sistemas
+  - Facultad de Ciencias
+    - Matemáticas
+    - Física
+  - Administración
+    - Talento Humano
+    - Finanzas
+
+=== PROPIEDADES DEL ÁRBOL ===
+Raíz: Rectoría
+Número total de nodos: 14
+Número de hojas: 8
+Número de nodos internos: 6
+Grado del árbol: 3
+Altura del árbol: 4
+Número de niveles: 5
+
+=== PROFUNDIDAD DE CINCO NODOS ===
+Rectoría                     -> 0
+Facultad de Ciencias         -> 1
+Programa de Software         -> 2
+Laboratorios                 -> 3
+Docente                      -> 4
+
+=== GRADO DE ALGUNOS NODOS ===
+Rectoría                     -> 3
+Facultad de Ingeniería       -> 2
+Programa de Software         -> 2
+Coordinación Académica       -> 2
+Docente                      -> 0
+
+=== TABLA DE MÉTRICAS ===
+Nodo                       Tipo      Grado  Profundidad  Altura
+Rectoría                   Raíz      3      0            4     
+Facultad de Ingeniería     Interno   2      1            3     
+Programa de Software       Interno   2      2            2     
+Coordinación Académica     Interno   2      3            1     
+Docente                    Hoja      0      4            0     
+Monitor                    Hoja      0      4            0     
+Laboratorios               Hoja      0      3            0     
+Programa de Sistemas       Hoja      0      2            0     
+Facultad de Ciencias       Interno   2      1            1     
+Matemáticas                Hoja      0      2            0     
+Física                     Hoja      0      2            0     
+Administración             Interno   2      1            1     
+Talento Humano             Hoja      0      2            0     
+Finanzas                   Hoja      0      2            0     
+
+=== PROFUNDIDAD DE CADA HOJA ===
+Docente                      -> 4
+Monitor                      -> 4
+Laboratorios                 -> 3
+Programa de Sistemas         -> 2
+Matemáticas                  -> 2
+Física                       -> 2
+Talento Humano               -> 2
+Finanzas                     -> 2
+
+=== CAMINOS ===
+Rectoría -> Facultad de Ingeniería -> Programa de Software -> Coordinación Académica -> Docente
+Longitud: 4 aristas
+Rectoría -> Administración -> Finanzas
+Longitud: 2 aristas
+
+=== COMPARACIÓN MANUAL VS. JAVA ===
+Número de nodos              manual: 14  Java: 14  COINCIDEN
+Número de hojas              manual: 8   Java: 8   COINCIDEN
+Grado del árbol              manual: 3   Java: 3   COINCIDEN
+Altura del árbol             manual: 4   Java: 4   COINCIDEN
+Profundidad de Docente       manual: 4   Java: 4   COINCIDEN
+Longitud camino a Finanzas   manual: 2   Java: 2   COINCIDEN
+
+=== MODIFICACIÓN DEL ÁRBOL ===
+Altura inicial: 4
+Altura tras agregar un hijo a Laboratorios: 4
+Altura tras agregar un hijo a Docente: 5
+Número de niveles ahora: 6
+Número total de nodos ahora: 16
+Alturas de los ancestros de Docente:
+  Docente                    -> 1
+  Coordinación Académica     -> 2
+  Programa de Software       -> 3
+  Facultad de Ingeniería     -> 4
+  Rectoría                   -> 5
