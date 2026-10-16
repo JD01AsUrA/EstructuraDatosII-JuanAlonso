@@ -127,6 +127,7 @@ java Main
 java EjemploArbolExpresion
 ```
 
+
 ![Captura compilando](Compilando.png)
 
 Salida:
@@ -188,5 +189,3 @@ Los operadores son nodos internos y los números son hojas. `evaluar()` resuelve
 ```text
 (3 + 5) = 8      (10 - 2) = 8      8 * 8 = 64
 ```
-
-
