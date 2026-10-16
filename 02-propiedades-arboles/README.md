@@ -60,7 +60,7 @@ java Main
 ```
 
 _captura de pantalla de la ejecución._
-![alt text](image.png)
+![Captura de ejecución](captura.png)
 ---
 
 ## 1. Identificación conceptual
