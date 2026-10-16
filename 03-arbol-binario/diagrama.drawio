@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="-gTYc4ROGXjYUVKrxD_y" name="Página-1">
+        <mxGraphModel dx="987" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Desarrollo" vertex="1">
+                    <mxGeometry height="65" width="140" x="110" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Soporte" vertex="1">
+                    <mxGeometry height="65" width="140" x="290" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Director Técnico" vertex="1">
+                    <mxGeometry height="65" width="140" x="200" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Ventas" vertex="1">
+                    <mxGeometry height="65" width="140" x="470" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Marketing" vertex="1">
+                    <mxGeometry height="65" width="140" x="650" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Director Comercial" vertex="1">
+                    <mxGeometry height="65" width="140" x="560" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#333333;fontStyle=1;fontSize=13;" value="Gerente General" vertex="1">
+                    <mxGeometry height="65" width="140" x="380" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-10" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-9" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-5" value="izq">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-11" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-9" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-8" value="der">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-12" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-5" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-3" value="izq">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-13" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-5" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-4" value="der">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-14" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-6" value="izq">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LtSZAAyj5ix23VAxVbxI-15" edge="1" parent="1" source="LtSZAAyj5ix23VAxVbxI-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;" target="LtSZAAyj5ix23VAxVbxI-7" value="der">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
